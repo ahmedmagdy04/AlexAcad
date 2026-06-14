@@ -1,0 +1,32 @@
+{
+  "name": "alexacad-backend",
+  "version": "1.0.0",
+  "description": "AlexAcad Express backend",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "seed": "node src/scripts/seedCurriculum.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.17.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.3.0",
+    "mongoose": "^9.6.2",
+    "multer": "^2.1.1",
+    "openai": "^6.38.0",
+    "pdf-parse": "^1.1.1",
+    "pdfreader": "^3.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
